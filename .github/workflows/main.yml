@@ -14,7 +14,7 @@ jobs:
       - name: test
         uses: kter/label-manager@master
         with:
-          APPROVAL_COUNT: 1
-          LEADER_NAME: kter
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: test
+          approval_count: 1
+          leader_name: kter
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_repository: test
