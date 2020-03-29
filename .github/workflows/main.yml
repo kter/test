@@ -16,5 +16,5 @@ jobs:
         with:
           APPROVAL_COUNT: 1
           LEADER_NAME: kter
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: test
