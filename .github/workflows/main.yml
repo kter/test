@@ -17,4 +17,3 @@ jobs:
           approval_count: 1
           leader_name: kter
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_repository: test
