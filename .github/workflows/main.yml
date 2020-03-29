@@ -1,9 +1,6 @@
-name: Run Unit Tests & Code Check
+name: test
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
 
 jobs:
