@@ -1,9 +1,6 @@
-name: Run Unit Tests & Code Check
+name: test
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
 
 jobs:
@@ -16,5 +13,4 @@ jobs:
         with:
           approval_count: 1
           leader_name: kter
-          github_token: ${{ secrets.github_token }}
-          github_repository: test
+          github_token: ${{ secrets.GITHUB_TOKEN }}
